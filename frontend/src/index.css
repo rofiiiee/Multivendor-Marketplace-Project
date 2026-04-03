@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  direction: rtl;
+  background-color: #f8fafc;
+  margin: 0;
+}
+.clip-path-hero {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
